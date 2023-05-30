@@ -2,6 +2,7 @@
   width: 100%;
   position: fixed;
   background: rgba(255, 255, 255, 0.7);
+  z-index: 100;
 }
 
 .box {
@@ -22,7 +23,7 @@
   font-size: 22px;
   line-height: 28px;
   gap: 30px;
-  color: blue;
+  color: rgb(45, 45, 46);
 }
 
 .mobile_btn {
