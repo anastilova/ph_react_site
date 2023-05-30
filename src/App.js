@@ -15,12 +15,12 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/gallery" element={<GalleryPage />}></Route>
-          <Route path="/products" element={<ProductsPage />}></Route>
-          <Route path="/gallery" element={<GalleryPage />}></Route>
-          <Route path="/shop" element={<ShopPage />}></Route>
-          <Route path="/contacts" element={<ContactsPage />}></Route>
+          <Route index element={<HomePage />}></Route>
+          <Route path="gallery" element={<GalleryPage />}></Route>
+          <Route path="products" element={<ProductsPage />}></Route>
+          <Route path="gallery" element={<GalleryPage />}></Route>
+          <Route path="shop" element={<ShopPage />}></Route>
+          <Route path="contacts" element={<ContactsPage />}></Route>
           <Route path="*" element={<NotFoundPage />}></Route>
         </Route>
       </Routes>

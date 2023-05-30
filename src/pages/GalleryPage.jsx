@@ -1,5 +1,5 @@
 const GalleryPage = () => {
-  return <div>This page is GALLERY</div>;
+  return <div className="gallery">This page is GALLERY</div>;
 };
 
 export { GalleryPage };
