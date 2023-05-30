@@ -28,4 +28,14 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: rgb(175, 97, 248);
+}
+
+.page1 {
+  background-color: rgba(226, 213, 213, 0.92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+  height: 100vh;
 }
