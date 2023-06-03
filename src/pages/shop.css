@@ -4,17 +4,21 @@
   padding: 0;
 }
 
-.cards {
-  margin: 10px;
+.containerForm {
   border-radius: 10px;
-  padding-top: 100px;
+  padding-top: 150px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
 
-.container {
+.formSend {
+  padding-bottom: 100px;
+}
+
+h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
