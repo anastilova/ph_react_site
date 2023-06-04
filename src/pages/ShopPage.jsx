@@ -3,6 +3,7 @@ import "./shop.css";
 import { TextareaPage } from "../components/TextareaPage";
 import { SelectBasicExample } from "../components/SelectBasicExample";
 import { SelectBasicExample1 } from "../components/workPerformer";
+import { Button, Image } from "react-bootstrap";
 // import { Form, Card as CustomCard } from "react-bootstrap/Form";
 
 const ShopPage = () => {
@@ -14,6 +15,10 @@ const ShopPage = () => {
           <SelectBasicExample />
           <SelectBasicExample1 />
           <TextareaPage />
+          <Button variant="primary" size="lg">
+            Отправить
+          </Button>
+          <Image />
         </div>
       </div>
     </>

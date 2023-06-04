@@ -1,4 +1,4 @@
 const ContactsPage = () => {
-  return <div>This page ContactsPage </div>;
+  return <>This page ContactsPage </>;
 };
 export { ContactsPage };
