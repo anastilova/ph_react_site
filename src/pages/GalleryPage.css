@@ -16,3 +16,7 @@
   transition: 0.2s;
   background-color: rgb(235, 233, 253);
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
